@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+}
+
+/* Container for entire game */
+.gamebox{
+    background-color: lightgray;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    margin-top: 20px;
+
+}   
+
+/* Title of the game */
+.title{
+    widows: 100%;
+    border-bottom: 5px solid black;
+    text-align: center;
+    font-size: 60px;
+    padding: 10px;
+
+}
+
+/* Instructions */
+.instructions {
+    text-align: center;
+
+}
+
+/* Area where word to be guessed is displayed */
+.wordbox{
+    width: 50%;
+    background-color: #C1C6A5;
+    margin: auto;
+    margin-top: 30px;
+    height: 60px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    padding-top: 15px;
+
+}
+
+/* Info on game status here */
+.infopanel{
+    width: 50%;
+    background-color: lightcyan;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 60px;
+
+}
+
+/* Guesses remaining in current game */
+.guessremain{
+    width: 25%;
+    float: left;
+    text-align: center;
+    background-color: #707941;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    height: 60px;
+    padding-top: 5px;
+
+}
+
+
+/* Letters that have been guessed section */
+.lettersguessed{
+    width: 75%;
+    float: right;
+    text-align: center;
+    background-color: #98A06D;
+    border: 2px solid black;
+    height: 120px;
+    padding-top: 5px;
+
+}
+
+/* info that this is area displaying letters guessed */
+.letterstxt{
+    text-align: center;
+}
+
+/* actual area guessed letters are displayed */
+.lettersdisp{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+/* Games won */
+.gameswon{
+    width: 25%;
+    float: left;
+    text-align: center;
+    background-color: #707941;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    height: 60px;
+    padding-top: 5px;
+
+}
+
+footer{
+    clear: both;
+    text-align: center;
+    padding-top: 80px;
+}

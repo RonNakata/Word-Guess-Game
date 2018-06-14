@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Word Guess Game</title>
+
+    <!-- Linking CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+    <div class="gamebox">
+
+        <div class="title">
+            <h1>Hangman</h1>
+         </div>
+
+         <div class="instructions">
+             <p>Press any key to get started!</p>
+         </div>
+
+         <div class="wordbox">
+            <span id="gameword"></span>
+         </div>
+
+         <div class="infopanel">
+             <div class="guessremain">
+                 <p>Guesses remaining: </p>
+                <span id=grem>13</span>
+             </div>
+
+             <div class="lettersguessed">
+                 <div class="letterstxt">
+                     <p>You have guessed these letters:</p>
+                 </div>
+                 <div class="lettersdisp">
+                     <span id=letdisp></span>
+                 </div>
+             </div>
+
+             <div class="gameswon">
+                    <p>Games won: </p>
+                    <span id="gwon">0</span>
+                </div>
+
+            </div>
+
+         <footer>
+             Theme: Have fun and learn the phonetic alphabet. I'm thematically challenged =P
+         </footer>
+
+
+
+    </div>
+
+
+
+    <!-- Linking Javascript -->
+    <script type="text/javascript" src="assets/javascript/game.js"></script>;
+
+</body>
+
+</html>
